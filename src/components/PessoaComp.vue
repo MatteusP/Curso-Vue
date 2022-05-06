@@ -1,5 +1,5 @@
 <template>
-    <h2>Esta é a descrição de pessoa: {{nome}}</h2>
+    <h2>Esta é a descrição da pessoa: {{nome}}</h2>
     <InfoUser/>
 </template>
 
