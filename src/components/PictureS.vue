@@ -10,6 +10,7 @@ export default {
         return{ 
             avatar: '/public/avatar.png',
             descricao: 'icon'
+            
         }     
     },
 }
