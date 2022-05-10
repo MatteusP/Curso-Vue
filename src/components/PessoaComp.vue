@@ -1,6 +1,6 @@
 <template>
     <h2>Esta é a descrição da pessoa: {{nome}}</h2>
-    <InfoUser/>
+    <InfoUser CompEmail="mattheus@email.com"/>
 </template>
 
 <script>

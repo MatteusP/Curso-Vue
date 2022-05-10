@@ -1,5 +1,6 @@
 <template>
   <div>
+    <p>{{CompEmail}}</p>
     <!-- o que esta dentro do v-if é javascript 
     o comando else só funciona se vier sucedido de um if -->
     <p v-if="esta_trabalhando">Estou trabalhando no momento.</p>
@@ -37,6 +38,9 @@ export default {
   name: "InfoUser",
   components: {
     PictureS,
+  },
+  props:{
+    CompEmail: String
   },
   data() {
     return {
