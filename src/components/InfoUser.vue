@@ -4,10 +4,10 @@
     o comando else só funciona se vier sucedido de um if -->
     <p v-if="esta_trabalhando">Estou trabalhando no momento.</p>
     <p v-else>Estou em busca de oportunidades</p>
-    <p>Utilizo as seguintes tecnologias:</p>
+    <p>Utilizo as seguintes tecnologias para back-end: </p>
     <ul>
       <li
-        v-for="(technology, index) in backend_technologies"
+        v-for="technology, index in backend_technologies"
         v-bind:key="index">
         {{ technology }}
       </li>
@@ -45,7 +45,7 @@ export default {
       email: "mateus@email.com",
       link: "https://google.com",
       textoBotao: "Mostrar E-mail",
-      backend_technologies: ["Javascript", "php", "java"],
+      backend_technologies: ["Javascript", "PHP", "Java"],
       frontend_technologies: [
         { id: 1, language: "HTML" },
         { id: 2, language: "CSS" },
